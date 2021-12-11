@@ -64,7 +64,7 @@ select{
 }
 .simple input:focus,.simple textarea:focus,.simple select:focus{
     outline: none;
-    box-shadow:  0 2.5px rgba(62,106,255,0.55);
+    box-shadow: (0 0 2.5px rgba(62,106,255,0.55));
     background-color: #ffffff;
     border: 1px solid #3e6aff;
 }
@@ -85,6 +85,7 @@ font-family: "Roboto";
     min-height: 130px;
     margin-bottom: 10px;
     width: 100%;
+    border-radius: 3px;
     box-sizing: border-box;
     border: 1px solid #cccccc;
     vertical-align: bottom;
@@ -107,6 +108,6 @@ background-color: #12d661;
 .button input:hover{
     width: 100%;
 border-radius: 3px;
-box-shadow: 0px 2px 2.5px rgba(8,118,52,0.35);
+box-shadow: (0px 2px 2.5px rgba(8,118,52,0.35));
 background-color: #07be51;
 }
