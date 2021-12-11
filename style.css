@@ -101,6 +101,7 @@ font-family: "Roboto";
 text-align: center;
 }
 .button input{
+    border: none;
     border-radius: 3px;
     color: #ffff;
 background-color: #12d661;
