@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
 }
-
 @font-face {
     font-family: 'Roboto Slab';
     src: url('..../fonts/RobotoSlab-Bold.woff2') format('woff2'),
@@ -24,6 +24,11 @@ body {
     margin: 0 auto;
 }
 
+hr{     padding-bottom: 10px 0;
+        height: 1px;
+        border: none;
+        background-color: #dcdcde;
+}
 .site h1 {
     margin-top: 30px;
     font-size: 30px;
@@ -40,15 +45,21 @@ body {
     font-weight: 700;
     font-family: "Roboto";
 }
-.form-1 h2{
+h2{
+font-size: 20px;
+color: #b3b3b3;
+font-weight: 700;
+font-family: "Roboto";
+text-transform: uppercase;
+}
+.form-2 h2{
     margin: 0;
-    padding-bottom: 28px;
+    padding-bottom: 44px;
 font-size: 20px;
 letter-spacing: 0px;
 color: #b3b3b3;
 font-weight: 700;
 font-family: "Roboto";
-text-transform: uppercase;
 }
 
 .simple input,
@@ -81,19 +92,23 @@ font-family: "Roboto";
 
 }
 .simple textarea{
+
     padding: 10px 15px;
     min-height: 130px;
+    max-height: 400px;
     margin-bottom: 10px;
     width: 100%;
     border-radius: 3px;
     box-sizing: border-box;
     border: 1px solid #cccccc;
     vertical-align: bottom;
+    resize: vertical;
 }
 .form-1 select {
     margin-top: 10px;
 }
 .button{ 
+    margin-bottom: 60px;
     font-size: 14px;
 color: #ffffff;
 font-weight: 700;
@@ -111,4 +126,145 @@ background-color: #12d661;
 border-radius: 3px;
 box-shadow: (0px 2px 2.5px rgba(8,118,52,0.35));
 background-color: #07be51;
+}
+.last label{ 
+font-size: 14px;
+color: #b3b3b3;
+font-weight: 400;
+font-family: "Roboto";
+}
+.flex{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.form-2{
+    display: block;
+}
+.form-2{
+    display: block;
+    max-width: 100%;
+}
+.form-2 p{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.checkbox{
+    display: none;
+}
+.checkbox::before{
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 17px;
+
+}
+.column-1 input{
+    display: block;
+}
+.column-1 label{
+    display: flex;
+}
+.column-1 p{
+    padding-bottom: 16px;
+}
+.column-2{
+    position: relative;
+}
+.column-2 p{
+    padding-bottom: 16px;
+    font-size: 14px;
+color: #1f222c;
+font-weight: 400;
+font-family: "Roboto";
+}
+.column-3 h1{
+    margin: 0;
+    padding-bottom: 16px;
+    font-size: 14px;
+color: #b3b3b3;
+font-weight: 700;
+font-family: "Roboto";
+    min-width: 70px;
+    display: inline-block;
+}
+.column-3 label{
+    font-size: 14px;
+color: #1f222c;
+font-weight: 400;
+font-family: "Roboto";
+}
+.column-3{
+    padding: 20px;
+    border-radius: 3px;
+background-color: #f7f7f7;
+border: 1px solid #e5e5e5;
+}
+[type="date"] {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.man{
+    display: none;
+}
+.man + label{
+    position: relative;
+}
+
+.man +label:before{
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background-image: url(./img/man\ \(2\).png);
+  background-repeat: no-repeat;
+}
+.man:checked +label:before{
+content: "";
+background-image: url(img/manchecked.png);
+background-repeat: no-repeat; 
+font-size: 16px;
+color: #3e6aff;
+width: 70px;
+height: 70px;
+}
+.women{
+    display: none;
+    position: relative;
+}
+.women+ label{
+    position: relative;
+    bottom: -40px;
+}
+.human label{
+padding-left: 100px;
+
+}
+.women +label:before{
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background-image: url(/img/women.png);
+}
+.women:checked +label:before{
+position: absolute;
+content: "";
+background-image: url(/img/womenchecked.png);
+background-repeat: no-repeat; 
+width: 70px;
+height: 70px;
+}
+.man
+.women{
+    position: relative;
+    padding: 30px 65px;
 }
