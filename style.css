@@ -619,9 +619,11 @@ body .button {
 
 .form-5 [type=reset] {
     cursor: pointer;
-    font-weight: 700;
-    font-family: "Roboto";
-    border: 1px solid #85868d;
+    font-size: 14px;
+color: #6e6f77;
+font-weight: 700;
+font-family: "Roboto";
+text-align: center;
     outline: none;
 }
 
