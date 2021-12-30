@@ -369,12 +369,12 @@ select {
 
 .women+label:before {
     position: absolute;
+    background-image: url(/img/women.png);
     content: "";
     left: 0;
     width: 70px;
     height: 70px;
     bottom: -10px;
-    background-image: url(../img/women.png);
 }
 
 .women:checked+label:before {
