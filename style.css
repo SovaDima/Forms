@@ -70,7 +70,7 @@ select {
     box-sizing: border-box;
     border: 1px solid #cccccc;
     width: 100%;
-    padding: 15px 15px;
+    padding: 12px 15px;
 }
 
 .simple input:focus,
@@ -338,13 +338,13 @@ select {
     top: 10px;
     width: 70px;
     height: 70px;
-    background-image: url(../img/man.png);
+    background-image: url(img/man.png);
     background-repeat: no-repeat;
 }
 
 .man:checked+label::before {
     content: "";
-    background-image: url(/img/manchecked.png);
+    background-image: url(img/manchecked.png);
     background-repeat: no-repeat;
     font-size: 16px;
     width: 70px;
@@ -369,7 +369,7 @@ select {
 
 .women+label:before {
     position: absolute;
-    background-image: url(/img/women.png);
+    background-image: url(img/women.png);
     content: "";
     left: 0;
     width: 70px;
@@ -380,7 +380,7 @@ select {
 .women:checked+label:before {
     position: absolute;
     content: "";
-    background-image: url(../img/womenchecked.png);
+    background-image: url(img/womenchecked.png);
     background-repeat: no-repeat;
     width: 70px;
     height: 70px;
@@ -467,7 +467,7 @@ table label {
     box-sizing: border-box;
     border-radius: 3px;
     border: 1px solid #cccccc;
-    padding: 15px 15px;
+    padding: 12px 15px;
 }
 
 .form-4 input:focus {
