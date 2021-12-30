@@ -344,7 +344,7 @@ select {
 
 .man:checked+label::before {
     content: "";
-    background-image: url(../img/manchecked.png);
+    background-image: url(/img/manchecked.png);
     background-repeat: no-repeat;
     font-size: 16px;
     width: 70px;
