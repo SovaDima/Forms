@@ -338,13 +338,13 @@ select {
     top: 10px;
     width: 70px;
     height: 70px;
-    background-image: url(/img/man.png);
+    background-image: url(../img/man.png);
     background-repeat: no-repeat;
 }
 
 .man:checked+label::before {
     content: "";
-    background-image: url(img/manchecked.png);
+    background-image: url(../img/manchecked.png);
     background-repeat: no-repeat;
     font-size: 16px;
     width: 70px;
@@ -374,13 +374,13 @@ select {
     width: 70px;
     height: 70px;
     bottom: -10px;
-    background-image: url(/img/women.png);
+    background-image: url(../img/women.png);
 }
 
 .women:checked+label:before {
     position: absolute;
     content: "";
-    background-image: url(/img/womenchecked.png);
+    background-image: url(../img/womenchecked.png);
     background-repeat: no-repeat;
     width: 70px;
     height: 70px;
