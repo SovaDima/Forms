@@ -24,13 +24,15 @@
                 <div class="simple">
                     <label><input type="text" placeholder="Введіть ім'я"></label>
                     <label><input type="text" placeholder="Email"></label>
-                    <select class="sel">
+                    <label class="sel" for="">
+                    <select name="">
                         <option selected disabled value=""><b>Ваше місто</b></option>
                         <option value>Хмельницький</option>
                         <option value>Львів</option>
                         <option value>Дніпро</option>
 
                     </select>
+                    </label>
                     <textarea placeholder="Email"></textarea>
                     <input class="button" type="submit" value="Зареєструватися">
                 </div>
@@ -120,19 +122,22 @@
                         </tr>
                         <tr>
                             <td><label for="password">Пароль:</label></td>
-                            <td><input placeholder="Введіть не менше 6 символів" type="password"></td>
+                            <td><input id="password" placeholder="Введіть не менше 6 символів" type="password"></td>
                         </tr>
                         <tr>
                             <td><label for="city">Місто:</label></td>
-                            <td> <select name="" id="city">
+                            <td> <label class="sel">
+                                <select name="" id="city">
                                     <option value>Хмельницький</option>
                                     <option value>Львів</option>
                                     <option value>Київ</option>
                                     <option value>Житомир</option>
-                                </select></td>
+                                </select>
+                            </label> 
+                        </td>
                         </tr>
                         <tr>
-                            <td><label for="">Стать:</label></td>
+                            <td><label for="sex">Стать:</label></td>
                             <td class="click">
                                 <p>
                                    <input class="radio" id="sex" name="radio" type="radio">
@@ -147,11 +152,11 @@
                         </tr>
                         <tr>
                             <td><label for="photo">Фото:</label></td>
-                            <td><input class="submit-4" type="submit" value="Виберіть файл"></td>
+                            <td><input id="photo" class="submit-4" type="submit" value="Виберіть файл"></td>
                         </tr>
                         <tr>
                             <td><label for="coment">Коментарій:</label></td>
-                            <td><textarea placeholder="Введіть текст повідомлення" name="" id="" rows="6"></textarea>
+                            <td><textarea id="coment" placeholder="Введіть текст повідомлення" name="" id="" rows="6"></textarea>
                             </td>
                         </tr>
                         <tr>
