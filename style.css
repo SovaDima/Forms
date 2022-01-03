@@ -143,10 +143,6 @@ select {
     resize: vertical;
 }
 
-.form-1 select {
-    margin-top: 10px;
-}
-
 .button input [type=submit] {
 
     background-color: #12d661;
@@ -508,23 +504,26 @@ table label {
     background-color: #ffffff;
     border: 1px solid #3e6aff;
 }
-
-.submit-4[type=submit] {
+.submit-4{
+display: none;
+ }
+ .photolab{
     width: 170px;
+border-radius: 3px;
+background-color: #3e6aff;
+font-size: 14px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Roboto";
+text-align: center;
+box-sizing: border-box;
+padding: 12px 15px;
+ }
+ .photolab:hover{
     border-radius: 3px;
-    background-color: #3e6aff;
-    color: #ffff;
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Roboto";
-    text-align: center;
-}
-
-.submit-4[type=submit]:hover {
-    background-color: #1145f1;
-}
-
+box-shadow:0px 2px 2.5px rgba(15,40,126,0.35);
+    background-color: #2857f4;
+ }
 .button {
     cursor: pointer;
     background-color: #12d661;
@@ -533,7 +532,6 @@ table label {
     border: none;
     text-align: center;
 }
-
 body .button {
     border: none;
 }
