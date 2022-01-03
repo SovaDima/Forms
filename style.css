@@ -630,6 +630,7 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     max-width: 190px;
+    margin-top: -5px;
 
 }
 
@@ -750,7 +751,7 @@ text-align: center;
     appearance: none;
     position: relative;
     background-color: transparent;
-    margin: 0;
+
 }
 .sel::before{
     content: "";
