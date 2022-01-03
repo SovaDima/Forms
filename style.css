@@ -483,6 +483,7 @@ table label {
 .form-4 td {
     vertical-align: top;
     padding-left: 135px;
+    margin-bottom: 10px;
 }
 
 .form-4 td:first-child {
@@ -749,6 +750,7 @@ text-align: center;
     appearance: none;
     position: relative;
     background-color: transparent;
+    margin: 0;
 }
 .sel::before{
     content: "";
